@@ -1,5 +1,5 @@
 from django.contrib import admin
-from switches.models import Switch, Group
+from switch.models import Switch, Group
 
 class SwitchInline(admin.TabularInline):
     model = Switch
