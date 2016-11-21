@@ -1,7 +1,7 @@
 __author__ = 'sebastienclaeys'
 
 from django.db import models
-import switches.conf as conf
+import switch.conf as conf
 
 
 class SwitchManager(models.Manager):
